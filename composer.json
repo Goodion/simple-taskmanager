@@ -1,0 +1,18 @@
+{
+    "name": "goodion/bloggist",
+    "description": "bloggist",
+    "authors": [
+        {
+            "name": "Ivan Saltykov",
+            "email": "hcys@list.ru"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^6.12",
+        "tinymce/tinymce": ">= 5"
+    },
+
+    "autoload": {
+        "psr-4": {"src\\": "src/"}
+    }
+}
